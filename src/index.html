@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversario</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="../src/images/logo.png" alt="logo">
+            <p class="hero__text">
+                O maior evento de todo do Brasil! O meu Aniversário começa em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Em minha Residencia
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        Sua presença
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        17/12/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--DJ">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Vai ter -  DJ Beat Queen!</h2>
+                <p class="event__details__description">
+                    Celebre meu aniversário em casa com a DJ Beat Queen, conhecida por suas vibrações contagiante e técnica impecável. Ela animará a festa a partir das 20h com um repertório que vai do eletrônico ao pop, incluindo toques de funk e samba.
+
+A festa começa às 19h. Não perca esta noite especial de música e dança com amigos e familiares. Marque na sua agenda e prepare-se para se divertir até o amanhecer!
+                </p>
+            </div>
+            <img class="event__image" src="../src/images/dj.png" alt="DJ">
+        </div>
+    </section>
+    <section class="event event--pista event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Pista de Dança</h2>
+                <p class="event__details__description">
+                    Prepare-se para dançar sem parar na nossa pista de dança especialmente montada para a ocasião! Não perca esta noite especial repleta de música, dança e alegria junto a amigos e familiares. Marque na sua agenda e venha preparado para se divertir até o amanhecer!
+                </p>
+            </div>
+            <img class="event__image" src="../src/images/pista.png" alt="pista">
+        </div>
+    </section>
+    <section class="event event--jogos">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Área de Fliperama para os Geeks e Amantes de Jogos!</h2>
+                <p class="event__details__description">
+                    Em minha festa de aniversário, além da música e da dança, prepare-se para se aventurar em nossa área de fliperama. Com uma seleção que vai desde clássicos como "Pac-Man" e "Space Invaders" até os lançamentos mais interativos, há desafios e diversão para todos os gostos.
+
+Convide seus amigos para duelos emocionantes ou junte-se a eles em jogos de equipe. Nosso fliperama é o lugar perfeito para reviver memórias e criar novas, em um ambiente cheio de risadas e competições amistosas. Prepare-se para uma noite de nostalgia e novas aventuras que promete ser memorável!
+                </p>
+            </div>
+            <img class="event__image" src="../src/images/jogos.png" alt="Jogos">
+        </div>
+    </section>
+    <section class="event event--bolo event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">O Grande Destaque: O Bolo de Aniversário!</h2>
+                <p class="event__details__description">
+                    Nenhuma festa de aniversário estaria completa sem o momento mais doce e esperado: o bolo! Este ano, prepare-se para se encantar com uma criação espetacular que será tanto uma delícia para os olhos quanto para o paladar. Nosso bolo de aniversário foi desenhado especialmente para impressionar, com camadas generosas, decoração elaborada e sabores que prometem agradar a todos.
+                </p>
+            </div>
+            <img class="event__image" src="../src/images/bolo.png" alt="bolo">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
