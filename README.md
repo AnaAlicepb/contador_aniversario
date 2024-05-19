@@ -62,7 +62,7 @@
     <h2>Contato</h2>
     <p>Para mais informações sobre o evento, sinta-se à vontade para entrar em contato:</p>
      <ul>
-    <li><a href="https://linktr.ee/anaeanali5" target="_blank"><img src="https://img.shields.io/badge/Ana_Alice_Rodrigues-blue?style=for-the-badge" alt="Ana Alice Rodrigues"></a></li>
+    <li><a href="https://linktr.ee/anaeanali5" target="_blank"><img src="https://img.shields.io/badge/Ana_Alice_Rodrigues-blue?style=for-the-badge" alt="Ana Alice Rodrigues"></a> clique aqui para acessar o projeto</li>
     <li><a href="https://contador-aniversario-rbz6f92nz-anaalicepbs-projects.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a></li>
      </ul>
 </section>
